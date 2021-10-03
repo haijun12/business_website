@@ -76,6 +76,9 @@ h5 {
         display: inline-block; font-size: 2px; padding: 2px 5px 2px
     5px; box-sizing: border-box; color: rgb(14, 13, 13)
     }
+    .bg {
+        display:none;
+    }
     h1, h2, p {
         font-size: 1.5rem;
     }
