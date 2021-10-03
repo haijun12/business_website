@@ -72,7 +72,7 @@ h5 {
     #info {
         height:200px; 
     }
-    #content .column {
+    #content {
         height: 100px;
         padding:10px;
     }
@@ -95,7 +95,7 @@ h5 {
     #info {
         height: 200px;
     }
-    #content .column {
+    #content {
         height: 100px;
         padding:10px;
     }
