@@ -94,7 +94,7 @@ h5 {
         color:#ffffff;
     }
     h1, h2, p {
-        font-size: 1rem;
+        font-size: 1.6rem;
     }
     img {
         max-width: 100px;
@@ -103,6 +103,9 @@ h5 {
         height: 250px;
     }
     #font {
+        font-size: 10px;
+    }
+    .pcolor {
         font-size: 10px;
     }
 }
