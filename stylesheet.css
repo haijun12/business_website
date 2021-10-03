@@ -55,7 +55,7 @@ h5 {
        height:200px;
    }
    #font {
-       font-size: 2px;
+       font-size: 10px;
    }
 }
 
@@ -85,7 +85,7 @@ h5 {
         max-width: 100%;
     }
     #font {
-        font-size: 2px;
+        font-size: 10px;
     }
 }
 
@@ -98,7 +98,7 @@ h5 {
         color:#ffffff;
     }
     h1, h2, p {
-        font-size: 2px;
+        font-size: 1.5rem;
     }
     img {
         max-width: 100px;
@@ -111,6 +111,6 @@ h5 {
         max-width: 100%;
     }
     #font {
-        font-size: 2px;
+        font-size: 10px;
     }
 }
