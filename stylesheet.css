@@ -1,0 +1,112 @@
+h1, ul, p, div {
+    font-family:monospace
+
+}
+.nav li {
+    display: inline-block; font-size: 30px; padding: 5px 20px 5px
+    20px; box-sizing: border-box; color: #fff
+}
+/* when you hover it shows background color */
+.nav li:hover {
+    border: 1px solid #333; color: #fff; 
+    background-color: #e74747
+}
+/* makes the words not underlined */
+.nav li a {
+    text-decoration: none; color: inherit
+}
+img {
+    width: 100%;
+    max-width: 250px;
+}
+
+#info {
+    height:400px; width: 100%; text-align:center; padding-top:30px;
+    box-sizing: border-box;
+}
+h2 {
+    font-size: 50px;
+}
+h4 {
+    font-size: 20px
+}
+
+h5 {
+    font-size: 17px
+}
+
+@media screen and (max-width:991px) {
+    .nav {
+        display: inline-block; font-size: 5px; padding: 2px 5px 2px
+    5px; box-sizing: border-box; color: #fff;
+    }
+    h1 {
+        color:#ffffff;
+    }
+
+   h1, h2, p {
+       font-size: 1rem;
+   }
+   img {
+       max-width:100px;
+   }
+   #info {
+       height:250px;
+   }
+   #font {
+       font-size: 20px;
+   }
+}
+
+@media screen and (max-width:767px) {
+    .nav {
+        display: inline-block; font-size: 5px; padding: 2px 5px 2px
+    5px; box-sizing: border-box; color: #fff;
+    }
+    h1 {
+        color:#ffffff;
+    }
+    h1, h2, p {
+        font-size: 1rem;
+    }
+    img {
+        max-width: 100px;
+    }
+    #info {
+        height:200px; 
+    }
+     
+    /* .image {
+        max-height: 50px;
+        max-width: 100%;
+    } */
+    #font {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .nav {
+        display: inline-block; font-size: 2px; padding: 2px 5px 2px
+    5px; box-sizing: border-box; color: #fff;
+    }
+    h1 {
+        color:#ffffff;
+    }
+    h1, h2, p {
+        font-size: 1.5rem;
+    }
+    img {
+        max-width: 100px;
+    }
+    #info {
+        height: 200px;
+    }
+    /* .image {
+        max-height: 50px;
+        max-width: 100%; */
+    /* } */
+    #font {
+        font-size: 10px;
+    }
+}
