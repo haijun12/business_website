@@ -95,8 +95,8 @@ h5 {
     #info {
         height: 250px;
     }
-    #content {
-        height: 100px;
+    .image{
+        max-height: 50px;
         padding:10px;
     }
 }
