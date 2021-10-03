@@ -37,7 +37,8 @@ h5 {
 
 @media screen and (max-width:991px) {
     .nav {
-        display: none;
+        display: inline-block; font-size: 5px; padding: 2px 5px 2px
+    5px; box-sizing: border-box; color: rgb(14, 13, 13)
     }
    h1, h2, p {
        font-size: 1.5rem;
@@ -52,7 +53,8 @@ h5 {
 
 @media screen and (max-width:767px) {
     .nav {
-        display: none;
+        display: inline-block; font-size: 5px; padding: 2px 5px 2px
+    5px; box-sizing: border-box; color: rgb(14, 13, 13)
     }
     h1, h2, p {
         font-size: 1.5rem;
@@ -71,7 +73,8 @@ h5 {
 
 @media screen and (max-width: 479px) {
     .nav {
-        display: none;
+        display: inline-block; font-size: 5px; padding: 2px 5px 2px
+    5px; box-sizing: border-box; color: rgb(14, 13, 13)
     }
     h1, h2, p {
         font-size: 1.5rem;
